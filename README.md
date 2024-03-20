@@ -2,6 +2,9 @@
 
 ## Editing
 
+<img align="right" height="130" src="24989308_MotionElements_hud-monochrome-front_converted_727542-480x270-3s-q2.gif"  />
+
+
 ## Overview
 
 This project focuses on improving document retrieval efficiency in industrial manufacturing using generative AI. Traditional methods lead to unplanned downtime during daily operations. The proposed solution leverages generative AI's natural language processing capabilities to provide swift and personalized search results, reducing downtime by enabling context-aware querying. The solution streamlines post-sales service workforce training through generative AI, facilitating rapid issue diagnosis and minimizing equipment downtime, thereby fostering trust.

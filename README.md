@@ -20,8 +20,35 @@ The proposed solution incorporates a comprehensive language model (LLM) and the 
 The model generates responses based on the provided prompts, drawing upon its training data consisting of machinery manuals. The responses are tailored to match the input prompt, ensuring relevance and coherence in the provided outcomes.
 
 ## Architecture
+```mermaid
+graph LR
+   subgraph User [User]
+       UserUploadPDF[Upload PDF]
+       UserAskQuestions[Ask Questions]
+       UserGetAnswer[Get Answer]
+   end
 
+   subgraph Model [Our Model]
+       LoadPDF[Load PDF]
+       EmbeddingStep[Embedding by OpenAI Embedding]
+       ChromaDB[Store vector by Chroma]
+       SearchStep[Search answers based on vector]
+       GPTStep[Organize answer by GPT 3.5 via OpenAI API]
+   end
 
+   UserUploadPDF-->LoadPDF
+   LoadPDF-->EmbeddingStep
+   EmbeddingStep-->ChromaDB
+   UserAskQuestions-->SearchStep
+   ChromaDB-.->SearchStep
+   SearchStep-->GPTStep
+   GPTStep-->UserGetAnswer
+
+   classDef userClass stroke:#333,stroke-width:2px;
+   classDef modelClass stroke:#333,stroke-width:2px;
+   class User,UserUploadPDF,UserAskQuestions,UserGetAnswer userClass;
+   class Model,LoadPDF,EmbeddingStep,ChromaDB,SearchStep,GPTStep modelClass;
+```
 
 ## Expected Outcome
 

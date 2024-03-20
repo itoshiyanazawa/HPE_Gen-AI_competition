@@ -1,6 +1,5 @@
 # Transformative Efficiency: Generative AI Solutions for Industrial Manufacturing Document Retrieval
 
-## Editing
 
 <img height="300" src="UI1.jpeg"  />
 

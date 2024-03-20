@@ -1,5 +1,7 @@
 # Transformative Efficiency: Generative AI Solutions for Industrial Manufacturing Document Retrieval
 
+## Editing
+
 ## Overview
 
 This project focuses on improving document retrieval efficiency in industrial manufacturing using generative AI. Traditional methods lead to unplanned downtime during daily operations. The proposed solution leverages generative AI's natural language processing capabilities to provide swift and personalized search results, reducing downtime by enabling context-aware querying. The solution streamlines post-sales service workforce training through generative AI, facilitating rapid issue diagnosis and minimizing equipment downtime, thereby fostering trust.
@@ -18,12 +20,11 @@ The model generates responses based on the provided prompts, drawing upon its tr
 
 1. **Formatting Responses**: The model streamlines user inputs for optimal processing.
 2. **Prompts and Queries**: Users articulate their queries or prompts in a user-friendly manner.
-3. **External Private Data Sources**: The model interfaces with external datasets to enrich the information available for processing.
 4. **LLM (Generative Approach Interface)**: The LLM plays a central role in generating contextually relevant and coherent responses.
 5. **Vector Database Storage**: Efficient storage and retrieval of vectors.
 6. **Vector Search**: Enables the model to sift through embedded and formatted queries, delivering precise and contextually relevant results.
-7. **Langchain**: Seamlessly connects large language models with external data sources.
-8. **Docker**: Streamlines deployment and testing through containerization.
+
+
 
 ## Expected Outcome
 

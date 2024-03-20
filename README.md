@@ -2,7 +2,7 @@
 
 ## Editing
 
-<img align="right" height="130" src="24989308_MotionElements_hud-monochrome-front_converted_727542-480x270-3s-q2.gif"  />
+<img height="300" src="UI1.jpeg"  />
 
 
 ## Overview
@@ -20,12 +20,6 @@ The proposed solution incorporates a comprehensive language model (LLM) and the 
 The model generates responses based on the provided prompts, drawing upon its training data consisting of machinery manuals. The responses are tailored to match the input prompt, ensuring relevance and coherence in the provided outcomes.
 
 ## Architecture
-
-1. **Formatting Responses**: The model streamlines user inputs for optimal processing.
-2. **Prompts and Queries**: Users articulate their queries or prompts in a user-friendly manner.
-4. **LLM (Generative Approach Interface)**: The LLM plays a central role in generating contextually relevant and coherent responses.
-5. **Vector Database Storage**: Efficient storage and retrieval of vectors.
-6. **Vector Search**: Enables the model to sift through embedded and formatted queries, delivering precise and contextually relevant results.
 
 
 

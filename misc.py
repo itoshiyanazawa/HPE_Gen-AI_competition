@@ -6,7 +6,7 @@ from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 
 
-openai_api_key = "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"
+openai_api_key = "API KEY"
 
 
 def generate_response(uploaded_file, openai_api_key, query_text):

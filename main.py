@@ -170,7 +170,7 @@ print(elasticsearch_client.info())
 from langchain_community.document_loaders import DropboxLoader
 
 # Generate access token: https://www.dropbox.com/developers/apps/create.
-dropbox_access_token = "sl.BwXlRC7Vp2_af2-8-Z_X4Yj_XEUENPvz-j9m0hT8j_swbfnODqInP1V9uV9qJi2cZ-ID8APU11Xh9_zGfG8hqvSWKd5r87ijnlkX19pYVBiybhTANfJ0IFx8gkn_wUtt2aazKupQ0XNiRzDrnRYRM4U"
+dropbox_access_token = "ACCESS TOKEN"
 # Dropbox root folder
 dropbox_folder_path = ""
 
